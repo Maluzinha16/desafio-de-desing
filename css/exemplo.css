@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&display=swap');
+
+.text-header{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+.fonte{
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+}
+
+.bg-preto{
+    background: #000;
+}
+
+.bg-verde{
+    background: #7bed9f;
+}
+
+.bg-azul{
+    background: #4bcffa;
+}
+
+.bg-gradient{
+    background: linear-gradient(to bottom right, #be2edd, #7efff5) !important;
+}
+
+.bg-header{
+    background: url(../img/ds.jpg);
+    background-size: cover;
+}
+
+.bg-contato{
+    background: url(../img/faleconosco.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+    body{
+        font-size: 0.9rem;
+    }
+
+    h1, .h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2, .h2 {
+      font-size: 1rem;
+    }
+  
+    h3, .h3 {
+      font-size: 0.85rem;
+    }
+  
+    h4, .h4 {
+      font-size: 0.65rem;
+    }
+  
+    h5, .h5 {
+        font-size: 0.5rem;
+    }
+    
+    h6, .h6 {
+        font-size: 0.4rem;
+    }
+
+    .display-4 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 4rem;
+    }
+
+    .bg-header{
+        background: linear-gradient(to bottom right, #be2edd, #7efff5) !important;
+    }
+
+    .bg-contato{
+        background: linear-gradient(to bottom right, #ff3838, #fff200) !important;
+    }
+}
+
+.icon {
+    font-size: 3rem;
+}
+
+/* Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+@media (max-width: 767.98px) {  }
+
+/* Dispositivos médios (tablets com menos de 992px)*/
+@media (max-width: 991.98px) {  }
+
+/* Dispositivos large (desktops com menos de 1200px)*/
+@media (max-width: 1199.98px) {  }

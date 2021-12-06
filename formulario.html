@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu primeiro HTML</title>
+    <link rel="shortcut icon" href="img/icones.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/exemplo.css">
+    <link rel="stylesheet" href="libis/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid bg-header fonte">
+        <h1 class="display-4 text-center text-white text-header">Desenvolvimento de Sistemas</h1>
+    </div>
+
+<nav class="navbar navbar-expand-lg  bg-gradient bg-dark fonte">
+    <a href="index.html" class="navbar-brand">
+        <img src="img/icones.png" alt="nossa logo" width="50" height="50">
+    </a>
+
+    <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" aria-controls="menu" aria-expanded="false" aria-label="Meu menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="menu" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="idex.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  text-white" href="estudo.html" >Onde Estudar</a>
+            </li>
+                <a class="nav-link  text-white" href="contato.html" >Contatos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  text-white" href="vestibulinho.html" >Vestibulinho</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center text-primary">Login </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-12 col-sm-6 col-md-6">
+        <img class="img-fluid mt-5" src="img/login.png" alt="Fale conosco">
+    </div>
+    <div class="col-12 col-sm-6 md-6">
+
+    <form class="mt-3" action="" method="POST" action="idex.php" >
+        USUARIO: <input type="text" name="usuario1"><br><br>
+        SENHA: <input type="password" name="senha1"><br><br>
+        <div class="form-group mt-2">
+            <button class="btn btn-primary">Entrar</button>
+        </div>
+    </form>
+    </div>
+</div>
+
+
+
+    
+
+
+<div class="container-fluid bg-info mt-3 fixed-bottom" >
+    <div class="row">
+        <di class="col-12">
+            <p class="text-center text-white">Siga-mos em nossas redes siciais</p>
+            <p class="text-center">
+
+                <i class="fab fa-facebook text-white icon"></i>
+                <i class="fab fa-instagram text-white icon"></i>
+
+            </p>
+        </di>
+    </div>
+</div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="libis/fontawesome-free-5.15.4-web/js/fontawesome.js"></script>
+</body>
+</html>
